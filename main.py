@@ -53,9 +53,6 @@ def Graph_merge(n:int, hash_map:dict, node_list:list):
     # Step 1 end.
 
     # Step 2 begin.
-    merged = []
-    for i in range(n):
-        merged.append(i)
     bel_step2, cost = {}, {}
     set_step2 = []
     for setid in range(len(belong_set)):
